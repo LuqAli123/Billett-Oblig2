@@ -17,14 +17,6 @@ public class Kinobillett {
         this.telefonnr = telefonnr;
     }
 
-    public String getFilm() {
-        return film;
-    }
-
-    public void setFilm(String film) {
-        this.film = film;
-    }
-
     public String getAntall() {
         return antall;
     }
@@ -49,20 +41,12 @@ public class Kinobillett {
         this.etternavn = etternavn;
     }
 
-    public String getTelefonnr() {
-        return telefonnr;
+    public String getFilm() {
+        return film;
     }
 
-    public void setTelefonnr(String telefonnr) {
-        this.telefonnr = telefonnr;
+    public void setFilm(String film) {
+        this.film = film;
     }
 
-    public String getEpost() {
-        return epost;
-    }
-
-    public void setEpost(String epost) {
-        this.epost = epost;
-    }
 }
-
